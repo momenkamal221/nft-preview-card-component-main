@@ -24,7 +24,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Flexbox
 ## What I learned
 - the **opacity** property
-- the position of eye icon was a little tricky for me, just had one problem will notice that the cursor is not pointer when you hover over the eye
+- the position of eye icon was a little tricky for me, just had one problem will notice that the cursor is not pointer when you hover over the eye<br>
 ![](./Snag_3bb8f822.png)
-however, the pointer appears when you hover over the image itself 
+however, the pointer appears when you hover over the image itself <br>
 ![](./Snag_3bb8e892.png)
