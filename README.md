@@ -14,8 +14,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - since the card is already small i didn't add any responsive functionality to my project
 
 ## Links
-- Solution URL: [Add solution URL here](https://github.com/momenkamal221/nft-preview-card-component-main.git)
-- Live Site URL: [Add live site URL here](https://momenkamal221.github.io/nft-preview-card-component-main/)
+- Solution URL: [solution URL](https://github.com/momenkamal221/nft-preview-card-component-main.git)
+- Live Site URL: [live site URL](https://momenkamal221.github.io/nft-preview-card-component-main/)
 
 ## Built with
 - CSS custom properties
@@ -27,3 +27,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 however, the pointer appears when you hover over the image itself <br>
 ![](./Snag_3bb8e892.png)<br>
 - practice writhing this readme using [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
+- i was using type selectors too much, i realized that it's harder to restructure my html document without changing the css file
+- I also used IDs a lot, it was not ideal but anyways I kind of got the job done
