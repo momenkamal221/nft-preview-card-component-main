@@ -6,7 +6,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - [Overview](#overview)
 - [Links](#links)
-- [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 
@@ -15,7 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - since the card is already small i didn't add any responsive functionality to my project
 
 ## Links
-
 - Solution URL: [Add solution URL here](https://github.com/momenkamal221/nft-preview-card-component-main.git)
 - Live Site URL: [Add live site URL here](https://momenkamal221.github.io/nft-preview-card-component-main/)
 
@@ -25,6 +23,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## What I learned
 - the **opacity** property
 - the position of eye icon was a little tricky for me, just had one problem will notice that the cursor is not pointer when you hover over the eye<br>
-![](./Snag_3bb8f822.png)
+![](./Snag_3bb8f822.png)<br>
 however, the pointer appears when you hover over the image itself <br>
-![](./Snag_3bb8e892.png)
+![](./Snag_3bb8e892.png)<br>
+- practice writhing this readme using [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
