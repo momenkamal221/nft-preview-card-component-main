@@ -8,7 +8,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-
+-[update](#update-jan-29-2022)
 ## Overview
 - this is my absolute first project
 - since the card is already small i didn't add any responsive functionality to my project
