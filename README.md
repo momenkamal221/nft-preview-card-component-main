@@ -32,3 +32,4 @@ however, the pointer appears when you hover over the image itself <br>
 ## update jan 29 2022
 - I refactored the whole code
 - I used grids to stack the icon-view on top of the image-equilibrium instead of the using posistioning
+- `the cursor is not pointer when you hover over the eye` I fixed this issue
