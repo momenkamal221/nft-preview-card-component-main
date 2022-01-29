@@ -29,3 +29,6 @@ however, the pointer appears when you hover over the image itself <br>
 - practice writhing this readme using [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 - i was using type selectors too much, i realized that it's harder to restructure my html document without changing the css file
 - I also used IDs a lot, it was not ideal but anyways I kind of got the job done
+## update jan 29 2022
+- I refactored the whole code
+- I used grids to stack the icon-view on top of the image-equilibrium instead of the using posistioning
