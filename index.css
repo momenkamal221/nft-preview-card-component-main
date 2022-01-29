@@ -1,94 +1,106 @@
-			body {
-				font-family: "Outfit", sans-serif;
-				background-color: hsl(217, 54%, 11%);
-			}
-			.container {
-				display: flex;
-				flex-direction: column;
-				align-items: flex-start;
-				width: 300px;
-				background-color: hsl(216, 50%, 16%);
-				padding: 25px;
-				border-radius: 15px;
-				margin: auto;
-				margin-top: 100px;
-				box-shadow: 0px 30px 10px 15px rgb(12, 23, 41);
-			}
-			#image-equilibrium {
-				border-radius: 7px;
-				height: auto;
-				width: 300px;
-			}
-			#icon-view{
-				position:absolute;
-				left:calc(50%);
-				bottom:calc(50%);
-				transform: translate(-50%, 50%);
-				cursor: pointer;
-				
-			}
-			#icon-view-container {
-				position: absolute;
-				background:hsl(178, 100%, 50%,50%);
-				width:300px;
-				height:300px;
-				border-radius: 7px;
-				cursor: pointer;
-				opacity: 0;
-				transition:opacity 0.5s ease-in-out;
-			}
-			#icon-view-container:hover {
-				opacity: 1;
-				
-			}
-			#middle {
-				display: flex;
-				justify-content: space-between;
-				width: inherit;
-			}
-			p,
-			#creation-of {
-				color: hsl(215, 51%, 70%);
-			}
-			div h3,
-			#creation-of span{
-				color: hsl(0, 0%, 100%);
-			}
-			div h3:hover,
-			#creation-of span:hover{
-				color: hsl(178, 100%, 50%);
-				cursor:pointer;
-			}
-			div span:first-child{
-				color: hsl(178, 100%, 50%);
-			}
-			h3 {
-				font-weight: bold;
-				margin-bottom: 5px;
-			}
-			p {
-				margin-top: 10px;
-				margin-bottom: 10px;
-			}
-			#avatar {
-				width: auto;
-				height: 110%;
-				margin: 10px;
-				margin-left: 0;
-				border: solid 1px white;
-				border-radius: 50%;
-			}
-			#creation-of {
-				display: flex;
-				height: 18px;
-				width: inherit;
-				justify-self: flex-start;
-				align-items: center;
-				margin: 5px;
-			}
-			hr {
-				width: inherit;
-				border: none;
-				height: 1px;
-				background-color: hsl(215, 32%, 27%);
-			}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+	font-family: "Outfit", sans-serif;
+	background-color: hsl(217, 54%, 11%);
+}
+p {
+	color: hsl(215, 51%, 70%);
+}
+.--white-text {
+	color: white;
+}
+.--cyan-text {
+	color: hsl(178, 100%, 50%);
+}
+.--tocyan-on-hover {
+	transition-duration: 1s;
+	cursor: pointer;
+}
+.--tocyan-on-hover:hover {
+	color: hsl(178, 100%, 50%);
+}
+
+.card {
+	display: flex;
+	min-width:180px;
+	max-width: 350px;
+	width: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: hsl(216, 50%, 16%);
+	padding: min(3vw, 25px);
+	border-radius: 15px;
+	box-shadow: 0px 30px 10px 15px rgb(12, 23, 41);
+}
+.card__img-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: [c0] 1fr[c1] 1fr[c2] 1fr[c3];
+	grid-template-rows: [r0]1fr[r1] 1fr[r2] 1fr[r3];
+}
+.card__img {
+	width: 100%;
+	grid-column-start: c0;
+	grid-column-end: c3;
+	grid-row-start: r0;
+	grid-row-end: r3;
+	border-radius: 7px;
+}
+.card__img-container-container {
+	grid-column-start: c0;
+	grid-column-end: c3;
+	grid-row-start: r0;
+	grid-row-end: r3;
+}
+.card__icon-view {
+	border-radius: 7px;
+	content: url(images/icon-view.svg);
+	padding: calc(50% - 24px);
+
+	background-color: hsl(178, 100%, 50%, 0);
+	margin: auto;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	opacity: 0;
+}
+.card__icon-view:hover {
+	background-color: hsl(178, 100%, 50%, 50%);
+	opacity: 1;
+}
+.card__title {
+	cursor: pointer;
+}
+.card_ETH::before {
+	content: url(images/icon-ethereum.svg);
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+.card__score {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.card__score__days-left::before {
+	content: url(images/icon-clock.svg);
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+.card__footer{
+	border-top: solid 1px hsl(215, 32%, 27%);
+	padding:5px;
+	width:100%;
+}
+.card__footer__avatar {
+	width: auto;
+	max-height: 18px;
+	border: solid 1px white;
+	border-radius: 50%;
+	position: relative;
+	top:5px;
+	margin-right:5px;
+}
