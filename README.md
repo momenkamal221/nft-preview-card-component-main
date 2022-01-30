@@ -18,7 +18,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Live Site URL: [live site URL](https://momenkamal221.github.io/nft-preview-card-component-main/)
 
 ## Built with
-- CSS custom properties
 - Flexbox
 ## What I learned
 - the **opacity** property
