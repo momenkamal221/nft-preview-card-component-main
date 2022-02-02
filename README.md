@@ -5,12 +5,12 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Table of contents
 
 - [Frontend Mentor - NFT preview card component solution](#frontend-mentor---nft-preview-card-component-solution)
-	- [Table of contents](#table-of-contents)
-	- [Overview](#overview)
-	- [Links](#links)
-	- [Built with](#built-with)
-	- [What I learned](#what-i-learned)
-	- [update jan 29 2022](#update-jan-29-2022)
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [update jan 29 2022](#update-jan-29-2022)
 
 ## Overview
 
