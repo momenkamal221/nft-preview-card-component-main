@@ -8,7 +8,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-
+- [update](#update-jan-29-2022)
 ## Overview
 - this is my absolute first project
 - since the card is already small i didn't add any responsive functionality to my project
@@ -18,7 +18,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Live Site URL: [live site URL](https://momenkamal221.github.io/nft-preview-card-component-main/)
 
 ## Built with
-- CSS custom properties
 - Flexbox
 ## What I learned
 - the **opacity** property
@@ -29,3 +28,7 @@ however, the pointer appears when you hover over the image itself <br>
 - practice writhing this readme using [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 - i was using type selectors too much, i realized that it's harder to restructure my html document without changing the css file
 - I also used IDs a lot, it was not ideal but anyways I kind of got the job done
+## update jan 29 2022
+- I refactored the whole code
+- I used grids to stack the icon-view on top of the image-equilibrium instead of the using posistioning
+- `the cursor is not pointer when you hover over the eye` I fixed this issue
