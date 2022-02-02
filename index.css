@@ -38,28 +38,19 @@ p {
 .card__img-container {
 	width: 100%;
 	display: grid;
-	grid-template-columns: [c0] 1fr[c1] 1fr[c2] 1fr[c3];
-	grid-template-rows: [r0]1fr[r1] 1fr[r2] 1fr[r3];
+	grid-template-columns: 1fr;
+	grid-template-rows:1fr;
 }
 .card__img {
 	width: 100%;
-	grid-column-start: c0;
-	grid-column-end: c3;
-	grid-row-start: r0;
-	grid-row-end: r3;
+	grid-area: 1/ -1 / 1 / -1;
 	border-radius: 7px;
-}
-.card__img-container-container {
-	grid-column-start: c0;
-	grid-column-end: c3;
-	grid-row-start: r0;
-	grid-row-end: r3;
 }
 .card__icon-view {
 	border-radius: 7px;
 	content: url(images/icon-view.svg);
 	padding: calc(50% - 24px);
-
+	grid-area: 1/ -1 / 1 / -1;
 	background-color: hsl(178, 100%, 50%, 0);
 	margin: auto;
 	cursor: pointer;
